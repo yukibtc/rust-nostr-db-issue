@@ -1,0 +1,8 @@
+[package]
+name = "rust-nostr-db-issue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nostr-sdk = { git = "https://github.com/rust-nostr/nostr", rev = "6e642ff7fc7c19e9a55adcbb88145ac0846844e9", features = ["sqlite", "ndb"] }
+tokio = { version = "1", features = ["full"] }
