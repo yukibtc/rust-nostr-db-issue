@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-nostr-sdk = { git = "https://github.com/rust-nostr/nostr", rev = "6e642ff7fc7c19e9a55adcbb88145ac0846844e9", features = ["sqlite", "ndb"] }
+nostr-sdk = { git = "https://github.com/rust-nostr/nostr", rev = "63327b6c4114848f1240bf0211fec271b88c58f1", features = ["lmdb", "ndb"] }
 tokio = { version = "1", features = ["full"] }
