@@ -3,6 +3,7 @@ name = "rust-nostr-db-issue"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
+[dev-dependencies]
 nostr-sdk = { git = "https://github.com/rust-nostr/nostr", rev = "63327b6c4114848f1240bf0211fec271b88c58f1", features = ["lmdb", "ndb"] }
 tokio = { version = "1", features = ["full"] }
+tempfile = "3"
